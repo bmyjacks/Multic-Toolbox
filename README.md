@@ -3,7 +3,7 @@ An intelligent toolbox.
 
 ## What can it do?
 * Multiple clipboard
-More features are under development. Please be patient.
+* More features are under development. Please be patient.
 
 ## LICENSE
 MIT LICENSE
