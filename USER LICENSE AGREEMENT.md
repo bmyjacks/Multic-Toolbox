@@ -1,7 +1,7 @@
 # HYDROGEN AND OXYGEN STUDIO SOFTWARE LICENSE
 ###### Last modification date: 18 AUGUST 2019
 
-#####Copyright (C) 2019 Hydrogen and Oxygen Studio.
+##### Copyright (C) 2019 Hydrogen and Oxygen Studio.
 This license is only allowed to be used in programs developed
 by Hydrogen and Oxygen Studio, and no one else is allowed to
 apply this license to other software.
