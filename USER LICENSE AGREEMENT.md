@@ -13,6 +13,8 @@ apply this license to other software.
 
 "You" means the user of this software.
 
+"Software Program" means an application issued by "Hydrogen and Oxygen Studio"
+
 1. Conflict
 
 If this licensing agreement is in conflict with the GPL-V3 licensing agreement,

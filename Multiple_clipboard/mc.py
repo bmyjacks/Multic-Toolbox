@@ -3,3 +3,5 @@
 #LICENSE MIT USER LICENSE AGREEMENT
 
 import sys
+
+print("Welcome to Multiple clipboard")
