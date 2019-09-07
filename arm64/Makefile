@@ -1,4 +1,4 @@
-deb_dir = multic-toolbox-deb
+deb_dir = multic_toolbox_deb
 version = 0.0.1
 architecture = arm64
 
@@ -6,11 +6,11 @@ all: builddir createdeb clean
 	echo "OK"
 
 builddir:
-	mkdir -p $(deb_dir)/usr/local/multic-toolbox
-	cp -rf multic_toolbox/* $(deb_dir)/usr/local/multic-toolbox/
+	mkdir -p $(deb_dir)/usr/local/multic_toolbox
+	cp -rf multic_toolbox/* $(deb_dir)/usr/local/multic_toolbox/
 
 createdeb:
-	dpkg-deb -b $(deb_dir) demo_$(version)_$(architecture).deb
+	dpkg-deb -b $(deb_dir) Multic_Toolbox_$(version)_$(architecture).deb
 
 clean:
-	rm -rf $(deb_dir)/usr/local/multic-toolbox/*
+	rm -rf $(deb_dir)/usr/local/multic_toolbox/*
