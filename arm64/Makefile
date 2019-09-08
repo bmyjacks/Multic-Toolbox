@@ -7,9 +7,13 @@ all: builddir createdeb clean
 builddir:
 	mkdir -p $(deb_dir)/usr/local/multic_toolbox
 	cp -rf multic_toolbox/* $(deb_dir)/usr/local/multic_toolbox/
+	echo "Build folds successful!"
 
 createdeb:
 	dpkg-deb -b $(deb_dir) Multic_Toolbox_$(version).deb
+	echo "Create deb successful!"
 
 clean:
-	rm -rf $(deb_dir)/usr/local/multic_toolbox/*
+	-rm -rf $(deb_dir)/usr
+	-rm -rf multic-toolbox-deb
+	echo "Clean!"
