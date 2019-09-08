@@ -9,9 +9,10 @@ An intelligent toolbox.
 ```
 bash
 cd ~
-pip3 install shelve pyperclip --user
+pip3 install shelve pyperclip
 ```
-
+## How to use
+View the introduction files for each tool to find out how to use it.
 ## LICENSE
 MIT
 
