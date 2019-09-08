@@ -1,6 +1,6 @@
 Package: Multic-Toolbox
 Version: 0.0.1
-Architecture: armhf
+Architecture: armhf, aarch64, arm64
 Maintainer: Hydrogen and Oxygen Studio
 Description: An intelligent toolbox.
 
