@@ -56,7 +56,7 @@ for dev in devs:
     total_disk_space = statvfs.f_frsize * statvfs.f_blocks
     free_disk_space = statvfs.f_frsize * statvfs.f_bfree
     disk_usage = int((total_disk_space - free_disk_space) * 100.0 / total_disk_space)
-    print('Mounted on equipment：%s，Mount point：%s Disk utilization:%d%%  File system:%s' % (dev.device,dev.mountpoint,disk_usage,dev.fstype))
+    print('mounted on equipment：%s，mount point：%s disk utilization:%d%%  file system:%s' % (dev.device,dev.mountpoint,disk_usage,dev.fstype))
 
 
 #cpu
