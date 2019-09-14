@@ -1,7 +1,7 @@
 #! python3
 #HOStudio
 #LICENSE MIT
-#Version:V0.0.1
+
 
 import psutil
 import uuid
@@ -9,10 +9,13 @@ import socket
 import os
 import platform
 
+version = 'V0.0.2'
+print("Tool's version: " + version)
+print()
+
 
 #System
 print('##########System info##########')
-
 def get_mac_address():
     mac=uuid.UUID(int = uuid.getnode()).hex[-12:]
     return ":".join([mac[e:e+2] for e in range(0,11,2)])
@@ -41,6 +44,8 @@ for i in load_list:
 
 
 myname = socket.getfqdn(socket.gethostname())
+print('system: ' + platform.system())
+print('system version: ' + platform.version())
 print('hostname:',myname)
 print('host ip:',get_host_ip())
 print('host MAC address:',get_mac_address())
@@ -57,7 +62,7 @@ for dev in devs:
     free_disk_space = statvfs.f_frsize * statvfs.f_bfree
     disk_usage = int((total_disk_space - free_disk_space) * 100.0 / total_disk_space)
     print('mounted on equipment：%s，mount point：%s disk utilization:%d%%  file system:%s' % (dev.device,dev.mountpoint,disk_usage,dev.fstype))
-
+print()
 
 #cpu
 cts = psutil.cpu_times()
@@ -66,14 +71,15 @@ for item in cts:
     if item != 0:
         cputime = cputime + item
 print('##########CPU info##########')
+print('CPU family: ' + platform.processor())
 print('user：%d%%' % (cts.user/cputime * 100))
 print('kernel：%d%%' % (cts.system/cputime * 100))
 print('free：%d%%' % (cts.idle/cputime * 100))
 print('Number of logical CPUs:',psutil.cpu_count())
 print('Number of physical CPUs:',psutil.cpu_count(logical=False))
+print()
 
-
-#内存
+#MEM
 print('##########MEM info##########')
 mem = psutil.virtual_memory()
 print('Memory size: %dM'%(int(mem.total/1024/1024)))
@@ -84,6 +90,7 @@ print('Memory utilization: %d%%'%(int(mem.percent)))
 print('##########END of system info##########')
 #System END
 print()
+
 #Python
 print('##########Python info##########')
 print('Python version: ' + platform.python_version())
