@@ -10,7 +10,7 @@ import socket
 import os
 import platform
 
-version = 'V0.0.2'
+version = 'V0.0.3'
 print("Tool's version: " + version)
 print()
 
