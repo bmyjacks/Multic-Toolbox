@@ -1,3 +1,0 @@
-# Multiple clipboard
-
-## Usage method
