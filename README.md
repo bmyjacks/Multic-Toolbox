@@ -12,7 +12,7 @@ An intelligent toolbox.
 ```
 bash
 cd ~
-pip3 install pyperclip psutil uuid socket --user
+pip3 install pyperclip psutil uuid --user
 ```
 
 ## How to use
