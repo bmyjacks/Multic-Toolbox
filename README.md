@@ -1,5 +1,7 @@
 # Multic-Toolbox
 
+[![Build Status](https://www.travis-ci.org/Hydrogen-and-Oxygen-Studio/Multic-Toolbox.svg?branch=master)](https://www.travis-ci.org/Hydrogen-and-Oxygen-Studio/Multic-Toolbox)
+
 An intelligent toolbox.
 
 ## What can it do?
