@@ -15,4 +15,4 @@ python:
 install:
   - pip install pyperclip psutil uuid
 
-script: test.py
+script: python3 test.py
