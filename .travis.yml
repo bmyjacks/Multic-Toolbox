@@ -13,6 +13,6 @@ python:
   - "3.8-dev"
 
 install:
-  - pip install shelve pyperclip psutil uuid socket sys time
+  - pip install pyperclip psutil uuid
 
-script: test.py
+script: python3 test.py
