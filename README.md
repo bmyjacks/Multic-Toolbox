@@ -25,6 +25,6 @@ View the introduction files for each tool to find out how to use it.
 
 ## LICENSE
 
-MIT
+GPL-V3
 
 ###### Copyright (c) 2019-2020 bmyjacks
