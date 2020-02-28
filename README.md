@@ -15,9 +15,8 @@ An intelligent toolbox.
 ## Before use
 
 ```
-bash
-cd ~
-pip3 install pyperclip psutil uuid --user
+
+bash pip3 install -r requirements.txt
 ```
 
 ## How to use
@@ -28,4 +27,4 @@ View the introduction files for each tool to find out how to use it.
 
 MIT
 
-###### Copyright (c) 2019 Hydrogen and Oxygen Studio
+###### Copyright (c) 2019-2020 bmyjacks
