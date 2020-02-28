@@ -1,5 +1,5 @@
 #! python3
 # -*- coding: utf-8 -*-
-#HOStudio
+#bmyjacks
 #LICENSE MIT
 print('Hello world!')
