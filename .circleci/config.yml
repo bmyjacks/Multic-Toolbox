@@ -11,9 +11,6 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-      - run:
-          command: ./test.py
-          name: Test
 
 workflows:
   main:
