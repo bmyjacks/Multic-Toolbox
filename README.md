@@ -1,6 +1,6 @@
 # Multic-Toolbox
 
-[![Build Status](https://www.travis-ci.org/Hydrogen-and-Oxygen-Studio/Multic-Toolbox.svg?branch=master)](https://www.travis-ci.org/Hydrogen-and-Oxygen-Studio/Multic-Toolbox)
+![Travis (.org)](https://img.shields.io/travis/bmyjacks/Multic-Toolbox?logo=travis&style=for-the-badge)
 
 An intelligent toolbox.
 
