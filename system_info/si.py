@@ -1,7 +1,6 @@
 #! python3
 # -*- coding: utf-8 -*-
-#HOStudio
-#LICENSE MIT
+# Copyright (c) 2019-2020 bmyjacks
 
 
 import psutil

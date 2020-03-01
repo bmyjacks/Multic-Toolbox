@@ -1,7 +1,6 @@
 language: python
 
 arch:
-  - arm64
   - amd64
 
 python:
