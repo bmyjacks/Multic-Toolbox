@@ -23,6 +23,7 @@ jobs: # A basic unit of work in a run
             - "venv"
       - run:
           command: |
+            pip install --upgrade pip
             pip install -r requirements.txt
             pipenv run python test.py test
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
