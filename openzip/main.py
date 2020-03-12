@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Copyright (c) 2020 bmyjacks
 
-import time
+import sys
 
 version = "0.0.0"
 
@@ -10,11 +10,19 @@ file_name = "example.zip"
 
 
 print("This is openzip " + version)
-time.sleep(0.5)
 print("Welcome!")
-time.sleep(0.2)
 print("Input the file name:")
 file_name = str(input())
-print("File name is "+ file_name + "right?")
-correct = true
-
+print("File name is "+ file_name + " right?(Y or N)")
+correct = "Y"
+correct = input()
+if correct == "Y":
+    print("Start to progress...")
+else:
+    if correct == "N":
+        print("Exit...")
+        sys.exit
+    else:
+        print("You input a wrong strings")
+        print("Exit...")
+print("OK")
