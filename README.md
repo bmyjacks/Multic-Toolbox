@@ -4,6 +4,7 @@
 ![CircleCI](https://img.shields.io/circleci/build/github/bmyjacks/Multic-Toolbox?logo=CircleCI&style=for-the-badge)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/bmyjacks/Multic-Toolbox?logo=Code%20Climate&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/bmyjacks/Multic-Toolbox?logo=github&style=for-the-badge)
+![Gitter](https://img.shields.io/gitter/room/bmyjacks/Multic-Toolbox?label=Gitter%20chat&logo=gitter&style=for-the-badge)
 
 An intelligent toolbox.
 
@@ -15,7 +16,6 @@ An intelligent toolbox.
 ## Before use
 
 ```
-
 bash pip3 install -r requirements.txt
 ```
 
@@ -25,6 +25,6 @@ View the introduction files for each tool to find out how to use it.
 
 ## LICENSE
 
-MIT
+GPL-V3
 
 ###### Copyright (c) 2019-2020 bmyjacks

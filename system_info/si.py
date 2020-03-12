@@ -1,9 +1,10 @@
 #! python3
 # -*- coding: utf-8 -*-
-#HOStudio
-#LICENSE MIT
+# Copyright (c) 2019-2020 bmyjacks
+# system_info v1.0.1
 
 
+#
 import psutil
 #此处在后期调试时运行失败：
 #ModuleNotFoundError: No module named 'psutil'
@@ -11,11 +12,18 @@ import uuid
 import socket
 import os
 import platform
+#
 
-version = 'V0.0.3'
+
+#
+version = 'V0.0.4'
+si_version = "v1.0.1"
+#
+
+# START
 print("Tool's version: " + version)
 print()
-
+print("System_info's version: " + si_version)
 
 #System
 print('##########System info##########')
@@ -98,3 +106,6 @@ print()
 print('##########Python info##########')
 print('Python version: ' + platform.python_version())
 print('##########END of python info##########')
+
+
+# END
