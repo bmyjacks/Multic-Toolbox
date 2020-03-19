@@ -11,6 +11,7 @@ An intelligent toolbox.
 ## What can it do?
 
 - System info
+- Unzip file
 - More features are under development. Please be patient.
 
 ## Before use
