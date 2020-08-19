@@ -2,21 +2,22 @@
 
 ![Travis (.org)](https://img.shields.io/travis/bmyjacks/Multic-Toolbox?logo=travis&style=for-the-badge)
 ![CircleCI](https://img.shields.io/circleci/build/github/bmyjacks/Multic-Toolbox?logo=CircleCI&style=for-the-badge)
+![Codacy grade](https://img.shields.io/codacy/grade/f9d88cc532954aa3b3960668de0f8fd5?logo=codacy&style=for-the-badge)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/bmyjacks/Multic-Toolbox?logo=Code%20Climate&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/bmyjacks/Multic-Toolbox?logo=github&style=for-the-badge)
 ![Gitter](https://img.shields.io/gitter/room/bmyjacks/Multic-Toolbox?label=Gitter%20chat&logo=gitter&style=for-the-badge)
 
 An intelligent toolbox.
 
-## What can it do?
+## What can it do
 
-- System info
-- Unzip file
-- More features are under development. Please be patient.
+-   System info
+-   Unzip file
+-   More features are under development. Please be patient.
 
 ## Before use
 
-```
+```bash
 bash pip3 install -r requirements.txt
 ```
 
